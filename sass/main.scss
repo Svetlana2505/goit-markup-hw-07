@@ -1,12 +1,30 @@
 @import "./vendors/normalize";
 
-@import './base/index.scss';
+@import './utils/fonts';
+@import './utils/mixin';
+@import './utils/varibles';
+@import './utils/visually-hidden';
 
-@import './components/index.scss';
+@import "./base/common";
+@import './base/container';
+@import './base/section';
 
-@import './layout/index.scss';
+@import './components/backdrop';
+@import './components/footer';
+@import './components/header';
+@import './components/logo';
+@import './components/title';
+@import './components/form/button';
+@import './components/form/checkbox';
+@import './components/form/form';
+@import './components/form/textarea';
 
-@import './utils/index.scss';
-
+@import './layout/home/clients';
+@import './layout/home/feature';
+@import './layout/home/hero';
+@import './layout/home/team';
+@import './layout/home/working';
+@import './layout/portfolio/filter-list';
+@import './layout/portfolio/project-list';
 
 
