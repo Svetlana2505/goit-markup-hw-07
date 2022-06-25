@@ -1,0 +1,12 @@
+@mixin style($fz: 14px, $fw: 400, $lh: 24px) {
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: calc($lh / $fz);
+}
+
+@mixin position($df: flex, $jc: center, $ai: center) {
+  display: $df;
+  justify-content: $jc;
+  align-items: $ai;
+  jusify-content:$jc;
+}
